@@ -1,7 +1,6 @@
 package io.lolyay.commands.manager;
 
 import io.lolyay.commands.slash.info.StatusCommand;
-import io.lolyay.commands.slash.info.VersionCommand;
 import io.lolyay.commands.slash.music.*;
 
 import java.util.Arrays;
@@ -21,8 +20,7 @@ public class CommandRegistry {
                 new StopCommand(),
                 new StopLiveLyricsCommand(),
                 new VolumeCommand(),
-                new StatusCommand(),
-                new VersionCommand()
+                new StatusCommand()
         );
     }
 }
